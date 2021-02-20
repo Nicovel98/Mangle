@@ -11,11 +11,11 @@
     <meta name="og:type" content="website">
     <meta name="og:image" content="<url-image>">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous"> <!-- Bootstrap 5 -->
     <script src="https://kit.fontawesome.com/dc81da99a3.js" crossorigin="anonymous"></script> <!-- FontAwesome 6 Icons -->
     <title>Mangle Mi Huella Verde</title>
-    <link rel="shortcut icon" type="image/png" href="img/logo.jpg">
+    <link rel="shortcut icon" type="image/png" href="img/logo_original.png">
 </head>
 
 <body>
@@ -25,12 +25,14 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMangle" aria-controls="navbarMangle" aria-expanded="false" aria-label="Toogle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <a class="navbar-brand mr-auto" href="#"><img src="img/logo.jpg" class="rounded-pill" height="38" width="48" alt="logo"></a>
+                <a class="navbar-brand mr-auto" href="#"><img src="img/logo2.jpg" class="rounded-pill" height="38" width="48" alt="logo"></a>
                 <div id="navbarMangle" class="collapse navbar-collapse">
                     <ul class="navbar-nav me-auto mb-2 mb-md-0">
                         <li class="nav-item active"><a class="nav-link active" aria-current="page" href="#">Inicio</a></li>
                         <!-- List item -->
                         <li class="nav-item"><a class="nav-link" href="#nosotros">Sobre nosotros</a></li>
+                        <!-- List item -->
+                        <li class="nav-item"><a class="nav-link" href="#equipo">Nuestro Equipo</a></li>
                         <!-- List item -->
                         <li class="nav-item"><a class="nav-link" href="#productsCarousel">Creaciones</a></li>
                         <!-- List item-->
@@ -66,13 +68,9 @@
                 <!-- List item -->
                 <li data-bs-target="#actividadCarousel" data-bs-slide-to="10"></li>
                 <!-- List item -->
-                <li data-bs-target="#actividadCarousel" data-bs-slide-to="11"></li>
-                <!-- List item -->
-                <li data-bs-target="#actividadCarousel" data-bs-slide-to="12"></li>
-                <!-- List item -->
             </ol>
             <div class="carousel-inner">
-                <div class="container col-lg-6 col-md-9">
+                <div class="container col-lg-6 col-md-10">
                     <div class="carousel-item active">
                         <img class="bd-placeholder-img img-fluid" src="img/actividades/foto-grupal.jpeg" alt="Foto_Grupal" aria-hidden="true">
                     </div>
@@ -88,43 +86,35 @@
                     <div class="carousel-item">
                         <img class="bd-placeholder-img img-fluid" src="img/actividades/actividad4.JPG" alt="Actividad0" aria-hidden="true">
                     </div>
-                    <!-- End Forth Carousel item -->
-                    <div class="carousel-item">
-                        <img class="bd-placeholder-img img-fluid" src="img/actividades/maceta-verde.png" alt="maceta-azul" aria-hidden="true">
-                    </div>
-                    <!-- End Five Carousel item -->
+                    <!-- End Fourth Carousel item -->
                     <div class="carousel-item">
                         <img class="bd-placeholder-img img-fluid" src="img/actividades/actividad1.JPG" alt="Actividad" aria-hidden="true">
                     </div>
-                    <!-- End Six Carousel item -->
-                    <div class="carousel-item">
-                        <img class="bd-placeholder-img img-fluid" src="img/actividades/actividad3.JPG" alt="Actividad1" aria-hidden="true">
-                    </div>
-                    <!-- End Seven Carousel item -->
+                    <!-- End Fifth Carousel item -->
                     <div class="carousel-item">
                         <img class="bd-placeholder-img img-fluid" src="img/actividades/actividad2.JPG" alt="actividad2" aria-hidden="true">
                     </div>
-                    <!-- End Eight Carousel item -->
+                    <!-- End Sixth Carousel item -->
                     <div class="carousel-item">
                         <img class="bd-placeholder-img img-fluid" src="img/actividades/actividad5.JPG" alt="Actividad3" aria-hidden="true">
                     </div>
-                    <!-- End Nine Carousel item -->
+                    <!-- End Seventh Carousel item -->
                     <div class="carousel-item">
                         <img class="bd-placeholder-img img-fluid" src="img/actividades/alambre.jpg" alt="plástico" aria-hidden="true">
                     </div>
-                    <!-- End Ten Carousel item -->
+                    <!-- End Eighth Carousel item -->
                     <div class="carousel-item">
                         <img class="bd-placeholder-img img-fluid" src="img/actividades/maceta-chorrito.jpeg" alt="maceta-chorrito" aria-hidden="true">
                     </div>
-                    <!-- End Eleven Carousel item -->
+                    <!-- End Ninth Carousel item -->
                     <div class="carousel-item">
                         <img class="bd-placeholder-img img-fluid" src="img/actividades/eko-escoba3.jpg" alt="grupo" aria-hidden="true">
                     </div>
-                    <!-- End Twelve Carousel item -->
+                    <!-- End Tenth Carousel item -->
                     <div class="carousel-item">
                         <img class="bd-placeholder-img img-fluid" src="img/actividades/grupo.JPG" alt="grupo" aria-hidden="true">
                     </div>
-                    <!-- End Thirteen Carousel item -->
+                    <!-- End Eleventh Carousel item -->
                 </div>
                 <!-- End Container item -->
             </div>
@@ -144,47 +134,120 @@
     <!--================================================== -->
     <section>
         <!-- <hr class="featurette-divider"> -->
-        <div class="container marketing">
+        <div class="container marketing" id="nosotros">
             <!-- START THE FEATURETTES -->
-            <hr class="featurette-divider" id="nosotros">
+            <hr class="featurette-divider">
             <div class="row featurette">
-                <div class="col-md-7">
-                    <h1 class="featurette-heading">Manglemihuellaverde S.A.S. <span class="text-muted">It’ll blow your mind.</span></h1>
-                    <p class="lead">Crear conciencia colectiva de respeto y protección del medio ambiente. Liberando al mundo de la contaminación por residuos plásticos. </p>
+                <div class="col-lg-5 col-md-12 order-md-0 d-flex justify-content-center">
+                    <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="img/logo.jpg" width="500" height="500" alt="Logo1">                    
                 </div>
-                <div class="col-md-5">
-                    <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="img/logo.jpg" alt="Logo">
-                    <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"> -->
-                    <!-- <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text> -->
+                <div class="col-lg-7 col-md-12 order-md-1">
+                    <br>
+                    <h1 class="featurette-heading">Mangle Mi Huella Verde <span class="text-muted">S.A.S.</span></h1>
+                    <p class="lead">Somos una empresa dedicada a la transformación, venta y
+                        comercialización de productos funcionales
+                        fabricados con plástico reciclado, bajo la estrategia de economía circular
+                        y alineados con los objetivos de desarrollo sostenible (ODS).
+                        Liberando el mundo de la contaminación por residuos plásticos, buscamos crear conciencia
+                        colectiva de respeto y protección hacia el medioambiente,
+                        reactivar la economía y la calidad de vida de personas vulnerables.
+                    </p>
                 </div>
             </div>
             <hr class="featurette-divider">
             <!-- End First Divider -->
-            <!-- Three columns of text below the first divider-->
             <div class="row">
+                <div class="col-lg-6 col-md-12 order-lg-1">
+                    <iframe class="ratio ratio-4x3" width="500" height="500" src="https://www.youtube.com/embed/CXtnDHeVvHI?rel=0&controls=0&modestbranding=0&disablekb=1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <hr class="featurette-divider">
+                </div>                
+                <div class="col-lg-6 col-md-12 order-lg-0">
+                    <h2 class="featurette-heading"><span class="text-muted">Misión.</span></h2>
+                    <p class="lead">Dejar una huella verde en el mundo liberándolo de la contaminación por residuos plásticos, empoderando niños,
+                        niñas y jóvenes como líderes creadores de conciencia colectiva de respeto y protección del medio ambiente,
+                        a través de experiencias que fortalezcan valores como el respeto, la honestidad, el compromiso, la integridad, el pensamiento crítico y el liderazgo.
+                        Trabajamos para mejorar el medioambiente y la calidad de vida de personas vulnerables.
+                        Nuestros productos son fabricados bajo la estrategia de economía circular “Productos reciclados y reciclables”.
+                    </p>
+                </div>                                             
+                <div class="order-md-2">
+                    <h2 class="featurette-heading"><span class="text-muted">Visión.</span></h2>
+                    <p class="lead">Crear conciencia colectiva de respeto y protección hacia el medioambiente. Liberando el mundo de la contaminación por residuos plásticos.
+                        Sabemos que actualmente en el mundo se genera plástico a diario, y que solamente en Colombia se generan 2 kilos de plástico al mes
+                        por persona y 24 kilos de plástico al año, teniendo en cuenta que en existen cerca de 45 millones de habitantes la cifra
+                        por plásticos generados es muy alta, y de esta solo se recicla el 7%
+                        <span id="dots">...</span>
+                        <span id="more">
+                            Asimismo otros problemas a atacar son la falta de conciencia de respeto por
+                            el medio ambiente, la alta deforestación de la Reserva De Fauna Y Flora Ciénaga Grande De Santa Marta, la no dignificación del
+                            trabajo de los recicladores y la falta de oportunidades laborales para personas en condición de vulnerabilidad
+                            (personas en condición de discapacidad, extrema pobreza, madres y padres cabeza de familia).
+                            Asimismo existen muchas personas y empresas que buscan productos de mayor calidad, resistencia y durabilidad,
+                            Mangle ofrece productos con estas características con responsabilidad social y ambiental.
+                            Fabricados bajo la estrategia de economía circular y alineados a los objetivos de desarrollo sostenible.
+                            En base a lo anterior Mangle, Mi Huella Verde impacta de forma directa disminuyendo los índices de contaminación por residuos
+                            plásticos y a su vez ayuda a la reactivación económica y la inclusión social de comunidades vulnerables dignificando así
+                            el trabajo de personas que viven del reciclaje y ayudando a mejorar su calidad de vida, también contribuimos a la
+                            preservación y conservación de los ecosistemas de manglares ubicados en la Reserva De Fauna Y Flora Ciénaga Grande De Santa Marta.
+                            Asimismo empoderamos niños, niñas, jóvenes y personas en general para que sean lideres creadores de conciencia colectiva
+                            de respeto por el medioambiente a través de actividades que refuerzan el amor por la naturaleza
+                            (foros, Eco-cines al barrio, campañas de limpieza, campañas de arborización, jornadas de sensibilización),
+                            además por cada producto vendido sembramos un árbol de mangle en la Reserva De Fauna Y Flora Ciénaga Grande De Santa Marta,
+                            ayudando así a la recuperación de este importante complejo lagunar, vital para muchas especies animales y para
+                            la subsistencia de comunidades que viven de esta. Nuestros productos son reciclados y reciclables,
+                            de alta calidad y durabilidad, fabricados bajo la estrategia de economía circular y alineados a los objetivos de desarrollo sostenible.
+                        </span>
+                    </p>
+                    <p><button class="btn btn-primary" id="btn_more">Ver más &raquo;</button></p>
+                </div>                
+                <div class="order-md-3">
+                    <h2 class="featurette-heading"><span class="text-muted">Propósito.</span></h2>
+                    <p class="lead">Con lo que hacemos, liberamos el mundo de la contaminación por residuos plásticos.
+                        Nuestro objetivo es empoderar niños, niñas y jóvenes como líderes creadores de conciencia colectiva de respeto
+                        y protección hacia el medioambiente, mejorar el entorno y la calidad de vida de personas vulnerables.
+                        Nuestros productos son reciclados y reciclables, de alta calidad y durabilidad.
+                    </p>
+                </div>                
+            </div>
+            <hr class="featurette-divider" id="equipo">
+            <!-- End Second Divider -->
+            <div class="row">
+                <!-- Three columns of text below the first divider-->
                 <div class="col-lg-4">
-                    <img class="bd-placeholder-img img-fluid rounded-pill" width="135" height="150" src="img/orasi.jpg" alt="Orasi" aria-hidden="true">
-                    <h2>Orasi</h2>
-                    <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-                    <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
+                    <img class="bd-placeholder-img img-fluid rounded-circle" width="210" height="210" src="img/Orasi.png" alt="Orasi" aria-hidden="true">
+                    <h2>Orasi Smith Montenegro Sepúlveda</h2>
+                    <p>Tecnólogo en sistemas de información, activista ambiental y social, líder juvenil y amante de la naturaleza.</p>
+                    <p><a class="btn btn-primary" href="#" role="button">Ver más &raquo;</a></p>
                 </div>
                 <!-- End Col #1-->
                 <div class="col-lg-4">
-                    <img class="bd-placeholder-img img-fluid rounded-pill" width="155" height="150" src="img/diego.jpg" alt="Diego" aria-hidden="true">
-                    <h2>Diego</h2>
-                    <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-                    <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
+                    <img class="bd-placeholder-img img-fluid rounded-circle" width="210" height="210" src="img/Diego.png" alt="Diego" aria-hidden="true">
+                    <h2>Diego Armando Rincón Martínez</h2>
+                    <p>Técnico en mercadeo y ventas, alegre y entusiasta, apasionado por el aprender cosas nuevas y protector del medioambiente.</p>
+                    <p><a class="btn btn-primary" href="#" role="button">Ver más &raquo;</a></p>
                 </div>
                 <!-- End Col #2-->
                 <div class="col-lg-4">
-                    <img class="bd-placeholder-img img-fluid rounded-circle" width="135" height="150" src="img/david.jpeg" alt="David" aria-hidden="true">
-                    <h2>David</h2>
-                    <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-                    <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
+                    <img class="bd-placeholder-img img-fluid rounded-circle" width="210" height="210" src="img/David.png" alt="David" aria-hidden="true">
+                    <h2>David Elías Hernández Patiño</h2>
+                    <p>Ingeniero ambiental y sanitario, joven alegre y apasionado por el cuidado del medioambiente.</p>
+                    <p><a class="btn btn-primary" href="#" role="button">Ver más &raquo;</a></p>
                 </div>
                 <!-- End Col #3-->
+                <div class="offset-lg-4 col-lg-4">
+                    <img class="bd-placeholder-img img-fluid rounded-circle" width="210" height="210" src="img/Luisa.png" alt="Luisa" aria-hidden="true">
+                    <h2>Luisa Fernanda Hernández Patiño</h2>
+                    <p> Bachellor Degree in Public Health University of Tampa, Florida, Comissioner Florida state Notary Public, Tampa, Florida,
+                        Associate Degree in Liberal Arts Tampa, Florida ,English with Academic Purposes EAP Hillsborough Community College Tampa, Florida.
+                        Mujer alegre, líder y apasionada por el cuidado del medioambiente.
+                    </p>
+                    <p><a class="btn btn-primary" href="#" role="button">Ver más &raquo;</a></p>
+                </div>
+                <!-- End Col #4-->
             </div>
-            <div id="productsCarousel" class="carousel slide" data-bs-ride="carousel">
+            <hr class="featurette-divider">
+            <!-- End Second Divider -->
+            <div class="carousel slide" id="productsCarousel" data-bs-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-bs-target="#productsCarousel" data-bs-slide-to="0"></li>
                     <!-- List item -->
@@ -196,23 +259,23 @@
                     <!-- List item -->
                 </ol>
                 <div class="carousel-inner">
-                    <div class="container col-lg-6 col-md-8">
+                    <div class="container col-lg-7 col-md-10">
                         <div class="carousel-item active">
                             <img class="bd-placeholder-img img-fluid" src="img/productos/eco-escoba(Palito).png" alt="Eko-Escoba" aria-hidden="true">
                             <div class="container">
                                 <div class="carousel-caption text-start">
                                     <!-- <h3>Eko-Escoba</h3> -->
-                                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse Store</a></p>
+                                    <!-- <p><a class="btn btn-lg btn-primary" href="#" role="button">Tienda</a></p> -->
                                 </div>
                             </div>
                         </div>
                         <!-- End First Carousel item -->
                         <div class="carousel-item">
                             <img class="bd-placeholder-img img-fluid" src="img/productos/eco-escoba(interiores).png" alt="Eko-Escoba-Interiores" aria-hidden="true">
-                            <div class="container"> -->
+                            <div class="container">
                                 <div class="carousel-caption text-end">
                                     <!-- <h3>Eko-Escoba (Interiores)</h3> -->
-                                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse Store</a></p>
+                                    <!-- <p><a class="btn btn-lg btn-primary" href="#" role="button">Tienda</a></p> -->
                                 </div>
                             </div>
                         </div>
@@ -222,7 +285,7 @@
                             <div class="container">
                                 <div class="carousel-caption text-center">
                                     <!-- <h3>Eko-Maceta</h3> -->
-                                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse Store</a></p>
+                                    <!-- <p><a class="btn btn-lg btn-primary" href="#" role="button">Tienda</a></p> -->
                                 </div>
                             </div>
                         </div>
@@ -232,7 +295,7 @@
                             <div class="container">
                                 <div class="carousel-caption text-start">
                                     <!-- <h3>Eko-llavero</h3> -->
-                                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse Store</a></p>
+                                    <!-- <p><a class="btn btn-lg btn-primary" href="#" role="button">Tienda</a></p> -->
                                 </div>
                             </div>
                         </div>
@@ -252,20 +315,13 @@
                 <!-- End Carousel Controls-->
             </div>
             <!-- End Carousel -->
+            <!--================================================== -->            
+        </div> <!-- End Container Marketing Divider #1 -->
+    </section> <!-- /Section1 -->
+    <!--================================================== -->
+    <section>
+        <div class="container marketing" id="contacto">
             <hr class="featurette-divider">
-            <div class="row featurette">
-                <div class="col-md-7 order-md-2">
-                    <h3 class="featurette-heading">Manglemihuellaverde S.A.S. <span class="text-muted">See for yourself.</span></h3>
-                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-                </div>
-                <div class="col-md-5 order-md-1">
-                    <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
-                        <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
-                    </svg>
-                </div>
-            </div>
-            <!-- End Second Divider -->
-            <hr class="featurette-divider" id="contacto">
             <div class="row featurette">
                 <div class="row col-md-7">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d979.1594026996355!2d-74.28638032169191!3d10.9907020832003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTDCsDU5JzI2LjkiTiA3NMKwMTcnMDguOSJX!5e0!3m2!1ses!2sco!4v1612451053306!5m2!1ses!2sco" height="460" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
@@ -315,16 +371,15 @@
             <!-- End Third Divider -->
             <hr class="featurette-divider">
             <!-- /END THE FEATURETTES -->
-        </div>
-    </section> <!-- /Section1 -->
-    <!-- <section>
-</section> -->
-    <!-- /Section2 -->
+        </div> <!-- /End Container Marketing Divider #2 -->
+    </section> <!-- /Section2 -->
+    <!--================================================== -->
     <footer class="container">
         <p class="float-end"><a href="#">Back to top</a></p>
         <p>&copy; 2021 Manglemihuellaverde S.A.S &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
     </footer>
     <!-- /footer -->
+    <script src="js/readmore.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </body>

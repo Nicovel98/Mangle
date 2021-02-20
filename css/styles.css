@@ -9,15 +9,13 @@ body {
     padding-top: 3rem;
     padding-bottom: 3rem;
     /*color: #5a5a5a;*/
-    color: #212121;
-}
-
-section {
     background: rgb(255, 255, 240);
     background: linear-gradient(90deg, rgba(255, 255, 240, 1) 0%, rgba(245, 245, 245, 1) 33%, rgba(255, 255, 240, 1) 100%);
 }
 
 .navbar {
+    /*background: rgb(76, 175, 80);
+    background: linear-gradient(180deg, rgba(76, 175, 80) 0%, rgba(45, 150, 70, 1) 100%);*/
     background: rgb(76, 175, 80);
     background: linear-gradient(180deg, rgba(76, 175, 80, 1) 0%, rgba(69, 144, 26, 1) 100%);
 }
@@ -43,6 +41,76 @@ section {
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+#more {
+    display: none;
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+    margin-bottom: 4rem;
+}
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+    height: 32rem;
+}
+
+.carousel-item>img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    min-width: 100%;
+    height: 32rem;
+}
+
+.carousel-inner {
+    background: Floralwhite;
+    /*background: rgb(245, 245, 245);
+    background: radial-gradient(circle, rgba(250, 250, 250, 1) 4%, rgba(158, 158, 158, 1) 65%);*/
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background: black;
+}
+
+.fa-whatsapp-square {
+    color: #51cf66;
+    padding-right: 16px;
+}
+
+.fa-facebook-square {
+    color: #339af0;
+    padding-right: 16px;
+}
+
+.fa-tiktok {
+    /*background-color: #03071e;
+    color: #ffffff;*/
+    color: #03071e;
+    padding-right: 16px;
+    /*border-radius: 8px;
+    height: 36px;*/
+}
+
+.fa-instagram-square {
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-right: 16px;
 }
 
 /* CUSTOMIZE THE CAROUSEL
@@ -72,9 +140,10 @@ section {
     height: 32rem;
 }
 
-.carousel-inner {
-    background: rgb(245, 245, 245);
-    background: radial-gradient(circle, rgba(245, 245, 245, 1) 4%, rgba(158, 158, 158, 1) 65%);
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+    height: 42px;
+    width: 42px;
 }
 
 /* MARKETING CONTENT
